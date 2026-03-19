@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="../javascript/navbar-dropdown.js"></script>
+</head>
+
+<body id="top">
+    
+  <!--Phần NAVBAR-->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../html/home.html">
+        <img src="../image/Logo/LogoWebsite.png" alt="Cookit Logo">
+      </a>
+    </div>
+
+    <div class="navbar-center">
+      <ul class="nav-links">
+
+        <!--FOOD-->
+        <li class="has-dropdown">
+          <a href="../html/food.html" style="font-weight: lighter;">FOOD</a>
+        </li>
+
+        <!--RECOMMEND-->
+        <li class="has-dropdown">
+          <a href="../html/recommend.html" style="font-weight: lighter;">RECOMMEND</a>
+        </li>
+
+        <!--RECIPES-->
+        <li class="has-dropdown">
+          <a href="../html/recipes.html" style="font-weight: lighter;">RECIPES</a>
+        </li>
+
+        <!--CONTACT-->
+        <li class="has-dropdown">
+          <a href="#" style="font-weight: lighter;">CONTACT</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="nav-icons">
+      <div class="search">
+        <input type="text" placeholder="Search products...">
+        <i class="fa fa-search"></i>
+      </div>
+      <a href="Login.html" class="fa fa-user" style="color: black;"></a>
+
+
+    </div>
+  </nav>
+
+  <!------------------------------------------------------------------------>
+
+  <!--Phần MAIN-->
+  <main>
+
+  </main>
+
+
+  <!--JavaScript----------------------------------------------------------------->
+
+  <a id="scroll_top" href="#top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+
+
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- JS của bạn -->
+
+  <script>
+    document.getElementById('btn').addEventListener('click', function(){
+        document.querySelector('nav').style.left = 0;
+    });
+
+    document.getElementById('close').addEventListener('click', function(){
+        document.querySelector('nav').style.left = '-400px';
+    });
+  </script>
+
+
+<!-------------------------------------------------------------------------------------->
+
+
+
+
+
+
+</body>
+</html>
