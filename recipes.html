@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes – My Vietnamese Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/recipes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="../javascript/navbar-dropdown.js"></script>
+</head>
+<body id="top">
+
+  <!-- NAVBAR with search + user icon, and updated order -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../html/home.html">
+        <img src="../image/Logo/LogoWebsite.png" alt="Cookit Logo">
+      </a>
+    </div>
+    <div class="navbar-center">
+      <ul class="nav-links">
+        <li class="has-dropdown"><a href="../html/food.html">FOOD</a></li>
+        <li class="has-dropdown"><a href="../html/recommend.html">RECOMMEND</a></li>
+        <li class="has-dropdown"><a href="../html/recipes.html">RECIPES</a></li>
+        <li class="has-dropdown"><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="nav-icons">
+      <div class="search">
+        <input type="text" placeholder="Search products...">
+        <i class="fa fa-search"></i>
+      </div>
+      <a href="Login.html" class="fa fa-user" style="color: black;"></a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="recipe-section">
+      <!-- Header -->
+      <div class="recipe-header">
+        <h1>My Recipes</h1>
+        <p>Your personal collection of pinned Vietnamese dishes</p>
+      </div>
+
+      <!-- Tabs + Create New button -->
+      <div class="recipe-tabs-wrapper">
+        <div class="recipe-tabs">
+          <button class="tab active">Pinned</button>
+          <button class="tab">Recent</button>
+          <button class="tab">Created</button>
+        </div>
+        <a href="#" class="btn-create"><i class="fas fa-plus"></i> Create New</a>
+      </div>
+
+      <!-- Recipe Grid (6 cards) -->
+      <div class="recipe-grid">
+        <!-- Phở Bò -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Phở Bò</h3>
+          <div class="recipe-meta">30 mins • <span class="difficulty">Intermediate</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+        <!-- Bún Chả -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Bún Chả</h3>
+          <div class="recipe-meta">45 mins • <span class="difficulty">Intermediate</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+        <!-- Cơm Tấm -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Cơm Tấm</h3>
+          <div class="recipe-meta">40 mins • <span class="difficulty">Easy</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+        <!-- Gỗ Cuốn -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Gỗ Cuốn</h3>
+          <div class="recipe-meta">20 mins • <span class="difficulty">Easy</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+        <!-- Bánh Mì -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Bánh Mì</h3>
+          <div class="recipe-meta">15 mins • <span class="difficulty">Easy</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+        <!-- Bánh Xèo -->
+        <div class="recipe-card">
+          <div class="card-image">
+            <i class="fas fa-camera"></i>
+            <span>Image placeholder</span>
+          </div>
+          <h3>Bánh Xèo</h3>
+          <div class="recipe-meta">50 mins • <span class="difficulty">Advanced</span></div>
+          <div class="pinned-badge"><i class="fas fa-thumbtack"></i> PINNED</div>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="recipe-cta">
+        <h2>Craving something else?</h2>
+        <p>Explore thousands of premium recipes from our community chefs.</p>
+        <a href="#" class="cta-button">Browse All Recipes</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (unchanged) -->
+  <footer class="vt-footer">
+    <div class="vt-footer-top">
+      <div>
+        <img src="../image/Logo/LogoWebsite.png" alt="Cookit" class="vt-logo">
+        <div class="vt-email"><i class="far fa-envelope"></i> <a href="mailto:support@cookit.com">support@cookit.com</a></div>
+        <div class="vt-social">
+          <a href="#" class="social-circle"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-circle"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-circle"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="social-circle"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="vt-footer-columns">
+        <div>
+          <h4>Products</h4>
+          <a href="#">New Arrivals</a>
+          <a href="#">Best Sellers</a>
+          <a href="#">Sale</a>
+        </div>
+        <div>
+          <h4>About</h4>
+          <a href="#">Our Story</a>
+          <a href="#">Careers</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="#">FAQs</a>
+          <a href="#">Shipping</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+    <div class="vt-footer-bottom">
+      <p>© 2025 Cookit. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <a id="scroll_top" href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    document.getElementById('btn')?.addEventListener('click', function(){
+      document.querySelector('nav').style.left = 0;
+    });
+    document.getElementById('close')?.addEventListener('click', function(){
+      document.querySelector('nav').style.left = '-400px';
+    });
+  </script>
+</body>
+</html>
